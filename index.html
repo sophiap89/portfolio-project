@@ -25,21 +25,51 @@
     <title>Sophia Pedley</title>
   </head>
   <body>
-    <div class="d-flex justify-content-center container text-center hero">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand me-auto" href="#">Sophia Pedley</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="mx-auto navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
       <div class="row">
-        <div class="col-4 col-sm-6">
-          <h3>Hello I'm</h3>
+        <div class="col-md-6">
+          <div id="text1">
+            <h2>Hello, I'm</h2>
+          </div>
+          <div id="text2">
+            <h1>Sophia Pedley</h1>
+          </div>
         </div>
-        <div class="w-100"></div>
-        <div class="col-4 col-sm-6">
-          <h1>Sophia Pedley</h1>
-        </div>
-
-        <div class="col-4 col-sm-6 profile-pic">
-          <img
-            src="/images/beige-profile-photo.png"
-            class="img-fluid rounded"
-            alt="profile photo" />
+        <div class="d-flex justify-content-center col-md-6">
+          <div id="profile-image">
+            <img
+              src="/images/hero-image.png"
+              class="d-flex img-fluid rounded justify-content-center"
+              alt="profile image" />
+          </div>
         </div>
       </div>
     </div>
