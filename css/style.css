@@ -1,21 +1,78 @@
+:root {
+  --text-color: #5d2e46;
+  --background-color: #e8d6cb;
+  --accent-color: #b58db6;
+  --button-background: #5d2e46;
+  --button-font-color: #b58db6;
+  --heading-font: "Abril Fatface";
+  --small-font: "Josefin Sans", "sans-serif";
+}
+
 h1,
 h2,
 h3,
 p {
   text-align: center;
+  color: var(--text-color);
+}
+
+h1 {
+  font-size: 26px;
+  font-family: var(--small-font);
+}
+
+p {
+  font-size: 40px;
+  font-family: "Abril Fatface";
 }
 
 .container {
   padding-top: 120px;
 }
 
-#text1 {
-  padding-left: 15px;
-  padding-top: 120px;
-  padding-bottom: 0%;
+.btn-custom {
+  background: var(--button-background);
+  color: var(--button-font-color);
+  border: none;
+  transition: all ease-in-out 200ms;
+  font-family: var(--small-font);
 }
 
-#text2 {
-  padding-left: 15px;
-  padding-bottom: 15px;
+.navbar {
+  background: var(--background-color) !important;
+}
+
+.nav-link,
+.navbar-brand {
+  color: var(--text-color) !important;
+}
+
+.navbar-brand {
+  font-family: var(--heading-font);
+}
+
+body {
+  background: var(--background-color);
+}
+
+.btn:hover {
+  background: var(--button-font-color);
+  color: var(--button-background);
+}
+
+.nav-link:hover {
+  color: var(--accent-color) !important;
+  transition: all ease-in-out 200ms;
+}
+
+.nav-link {
+  font-family: var(--small-font) !important;
+  font-size: 20px !important;
+}
+
+.about-me {
+  padding-top: 90px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
