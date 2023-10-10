@@ -21,7 +21,8 @@ h1 {
   font-family: var(--small-font);
 }
 
-h2 {
+h2,
+h3 {
   font-family: var(--heading-font);
 }
 
@@ -120,4 +121,19 @@ body {
 .fa-pen-ruler,
 .fa-display-code {
   color: var(--text-color);
+}
+
+.title {
+  padding-top: none;
+}
+
+.blurb {
+  padding-bottom: 60px;
+}
+
+.content {
+  padding-top: 30px;
+}
+h3 {
+  padding: 30px;
 }
