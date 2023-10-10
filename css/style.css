@@ -21,6 +21,10 @@ h1 {
   font-family: var(--small-font);
 }
 
+h2 {
+  font-family: var(--heading-font);
+}
+
 p {
   font-size: 40px;
   font-family: "Abril Fatface";
@@ -75,4 +79,45 @@ body {
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 30px;
+}
+
+.about {
+  padding-top: 30px;
+}
+
+.services {
+  padding-top: 160px;
+  margin: none;
+}
+
+.services-container {
+  padding: none;
+  margin: none;
+}
+
+.service1,
+.service2 {
+  background: var(--background-color);
+  border-radius: 16px;
+  padding: 30px;
+  border: 2px solid;
+  border-color: var(--button-background);
+}
+
+.services-container p {
+  font-size: 26px;
+  color: var(--text-color);
+  font-family: var(--small-font);
+  hyphens: none;
+}
+
+@media screen and (max-width: 768px) {
+  .hyphenate {
+    hyphens: auto;
+  }
+}
+
+.fa-pen-ruler,
+.fa-display-code {
+  color: var(--text-color);
 }
