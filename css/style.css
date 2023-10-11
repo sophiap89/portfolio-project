@@ -137,3 +137,20 @@ body {
 h3 {
   padding: 30px;
 }
+.content-container {
+  padding-top: 30px !important;
+}
+
+.contact-info h1 {
+  font-family: var(--heading-font);
+  font-size: 40px;
+  padding: 30px;
+}
+.contact-info p {
+  font-family: var(--small-font);
+  font-size: 26px;
+}
+.custom-link {
+  text-decoration: none;
+  color: var(--button-font-color);
+}
