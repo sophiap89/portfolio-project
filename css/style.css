@@ -31,10 +31,6 @@ p {
   font-family: "Abril Fatface";
 }
 
-.container {
-  padding-top: 120px;
-}
-
 .btn-custom {
   background: var(--button-background);
   color: var(--button-font-color);
@@ -67,7 +63,7 @@ body {
 
 .nav-link:hover {
   color: var(--accent-color) !important;
-  transition: all ease-in-out 200ms;
+  transition: all 100ms ease-in-out;
 }
 
 .nav-link {
@@ -92,8 +88,7 @@ body {
 }
 
 .services-container {
-  padding: none;
-  margin: none;
+  padding: 30px;
 }
 
 .service1,
@@ -110,6 +105,7 @@ body {
   color: var(--text-color);
   font-family: var(--small-font);
   hyphens: none;
+  padding-top: none !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -153,4 +149,9 @@ h3 {
 .custom-link {
   text-decoration: none;
   color: var(--button-font-color);
+  transition: all 100ms ease-in-out;
+}
+
+.custom-link:hover {
+  color: var(--text-color);
 }
