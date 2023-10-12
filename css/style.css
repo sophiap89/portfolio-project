@@ -83,7 +83,7 @@ body {
 }
 
 .services {
-  padding-top: 160px;
+  padding-top: 100px;
   margin: none;
 }
 
@@ -137,10 +137,10 @@ h3 {
   padding-top: 30px !important;
 }
 
-.contact-info h1 {
-  font-family: var(--heading-font);
-  font-size: 40px;
+.contact-info h1,
+.content-container h1 {
   padding: 30px;
+  font-size: 46px;
 }
 .contact-info p {
   font-family: var(--small-font);
